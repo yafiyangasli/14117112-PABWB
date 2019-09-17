@@ -1,5 +1,102 @@
+html,body{
+  height: 100%;
+}
+body{
+  background-image: url(gunung.jpg);
+  background-position: center;
+  background-size: cover; 
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border: 2px solid #777;
+  
 }
+li{
+  float: right;
+
+}
+li a{
+	   display: block;
+  	padding: 14px 16px;
+   	text-decoration: none;
+   	color: DarkCyan;
+   	font-family: "Lucida Console", Lucida, monospace;
+
+   }
+.lambang{
+  float: left !important;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: DarkCyan;
+  font-family: "Lucida Console", Lucida, monospace;
+  font-style: italic;
+}
+a:hover{
+	background-color: #555;
+	color: DarkCyan;
+}
+a.lambang:hover{
+  background-color: #333;
+  color: DarkCyan;
+}
+.tulisan{
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  background-color: rgba(0,0,0,0.5);
+}
+.header{
+  text-align: center;
+  padding: 8px 8px;
+  font-size: 100px;
+  color: rgb(100,100,100);
+}
+.biasa{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2px 2px;
+  color: rgb(150,150,150);
+}
+.newshead{
+  text-align: center;
+  margin-top: 5%;
+  padding: 2px 2px;
+  font-size: 30px;
+  color: rgb(150,150,150);
+}
+.gambar{
+  object-position: center;
+  margin-left: 39%;
+  margin-right: 35%;
+}
+.footer {
+   position: fixed;
+   overflow: hidden;
+   height: 5%;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: DarkCyan;
+   text-align: left;
+   border: 2px solid #777;
+}
+/*#container{
+  min-height: 100%;
+  position: relative;
+}
+#footer {
+    height:50px;
+    line-height:50px;
+    background:#333;
+    color:#fff;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+}*/
