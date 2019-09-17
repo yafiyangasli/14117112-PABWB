@@ -1,8 +1,0 @@
-salah satu kegunaan meta data yaitu untuk meredirect dan
-merefresh halaman web kita
-thead untuk mendeklarasikan head dari tablenya, sedangkan tbody
-untuk mereprentasikan body dari tablenya
-tr untuk mereprentasikan rownya, jadi ketika kita membuat tr yang
-baru maka row yang baru akan terbentuk
-th memunculkan kata yang dicetak tebal (bold), sedangkan th menampilkan
-kata yang dicetak biasa
