@@ -18,9 +18,9 @@ Jenis Kelamin         :
       <option value="O">O</option>
     </select> <br><br>
 <label>Hobi :</label><br>
-    <input type="checkbox" name="hobi[]" value="berenang">Game<br>
-    <input type="checkbox" name="hobi[]" value="menyelam">Bermain<br>
-    <input type="checkbox" name="hobi[]" value="tenggelam">Playing<br><br>
+    <input type="checkbox" name="hobi[]" value="game">Game<br>
+    <input type="checkbox" name="hobi[]" value="bermain">Bermain<br>
+    <input type="checkbox" name="hobi[]" value="playing">Playing<br><br>
 <label>Keterangan: </label><br>
 <textarea name="keterangan" rows="5" cols="40"></textarea><br>
 <input type="submit">
