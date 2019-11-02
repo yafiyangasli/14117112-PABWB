@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tambah Data</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</HEAD>
+<BODY>
+<h1>DATA DIRI</h1>
+<section>
+<form action="prosestambah.php" method="post">
+<b>NRP</b> <input type="number" name="nrp" size="35"
+maxlength="11" class="form-control"> <br>
+<b>Nama</b> <input type="text" name="nama" size="20"
+maxlength="25" class="form-control"> <br>
+<b>Alamat</b> <textarea name="alamat" rows="5"
+cols="30" class="form-control"></textarea> <br>
+<b>Jurusan</b> <select name="jurusan" class="form-control">
+	<option value="1111">Sains</option>
+	<option value="2222">Sosial</option>
+	<option value="3333">Kenegaraan</option>
+</select>
+<br>
+<input type="submit" value="Simpan" class="btn btn-default">
+<input type="reset" value="Reset" class="btn btn-danger">
+</form>
+</section>
+<br>
+<section>
+	<form action="hasilsearch.php" method="post">
+<b>Masukkan nama data yang ingin anda cari</b>
+<input type ="text" type ="text" name="cari" class="form-control">
+<br>
+<input type ="submit" value="Cari" class="btn btn-default">
+<input type="reset" value="Reset" class="btn btn-danger">
+</form>
+</section>
+<br>
+<section>
+	<form action="proseshapus.php" method="post">
+<b>Masukkan NRP data yang ingin dihapus</b>
+<input type="number" name="hapus" size="35" class="form-control">
+<br>
+<input type ="submit" value="Hapus" class="btn btn-warning">
+<input type="reset" value="Reset" class="btn btn-danger">
+	</form>
+
+</section>
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</BODY>
+</HTML>
